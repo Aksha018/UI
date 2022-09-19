@@ -1,0 +1,121 @@
+.img {
+    background-color: blue;
+    
+}
+.act {
+    height: 300px;
+    width: 300px;
+    margin-left: 60px;
+   
+}
+p {
+    font-size: x-large;
+    justify-content: right;
+    margin-left: 300px;
+    text-align: center;
+    color: #fff;
+}
+.navbar {
+    background: blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 1rem;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    box-shadow: 2px 2px 2px 2px rgba(0.5,0,0,.5);
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: sticky;
+}
+
+#navbar__logo {
+    color: blue;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size:2rem;
+    background-color: #fff;
+    margin-left: 50px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    position: sticky;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+/*service*/
+
+.service-banner { 
+    display: none; 
+}
+
+.service {
+     padding-block-end: 0;
+     }
+
+.service .section-title { 
+    margin-block-end: 50px; 
+}
+
+.service-list {
+  display: grid;
+  gap: 15px;
+}
+
+.service-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  min-height: 100%;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-4);
+  padding: 30px;
+}
+
+.service-card .card-icon {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.service-card .card-title { 
+    margin-block-end: 8px;
+ }
+
